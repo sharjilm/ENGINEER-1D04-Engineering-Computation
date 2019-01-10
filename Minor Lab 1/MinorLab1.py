@@ -14,7 +14,7 @@ def minor1(n):
 
     return e, sigma, product
 
-# Test case
+# Test Case
 result = minor1(5)
 print("e_convergence =", result[0])
 print("sigma =", result[1])
