@@ -9,8 +9,7 @@ def makeExpression(i, j, op):
     return str(i) + op + str(j)
 
 def makeOp():
-    # This function returns a character representing math operators: + (addition), - (subtraction), or
-    # * multiplication.
+    # This function returns a character representing math operators: + (addition), - (subtraction), or * multiplication.
     index = random.randint(0,2)
     x = ['+', '-', '*']
     return x[index]
